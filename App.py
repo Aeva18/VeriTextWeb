@@ -70,7 +70,9 @@ if st.session_state.page == "Predict":
     st.sidebar.header("Instructions")
     st.sidebar.write(
         """
-        - Paste the text in the input box.
+        - For example, go to chat.openai.com and 
+        - Try to generate simple prompt like "Generate essay about cars"
+        and paste the result in the input box.
         - Click on "Analyze Text" to process.
         - Wait for the animation and see the result!
         """
